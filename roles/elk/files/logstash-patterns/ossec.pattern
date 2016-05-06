@@ -107,7 +107,7 @@ OSSEC_MESSAGE_FULL_COMMDIFF_DIFF ossec: output: %{GREEDYDATA:[Alert][Target][Com
 #Rule: 591 (level 3) -> 'Log file rotated.'
 #ossec: File rotated (inode changed): '/var/log/messages'.
 
-OSSEC_MESSAGE_FULL_LOGROT_FILE ossec\: File rotated \(inode changed\)\: '%{DATA:[Alert][Target][File][Path]}'.
+OSSEC_MESSAGE_FULL_LOGROT_FILE ossec: File rotated \(inode changed\)\: '%{DATA:[Alert][Target][File][Path]}'.
 
 
 
